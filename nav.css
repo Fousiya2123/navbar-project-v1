@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    margin: 0%;
+    background-image:linear-gradient(to bottom right,red, yellow 10%, green 20%) ;
+}
+#menu{
+ position: fixed;
+ background-color: bisque;
+ width: 100%;
+ margin-top: 0px;
+ top: 0px;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* pseudo classes
+syntax:: 
+
+selector:pseudo-class{
+    property:value;
+}*/
+a:hover{
+    font-size: 40px;
+    color: red;
+}
+
+
